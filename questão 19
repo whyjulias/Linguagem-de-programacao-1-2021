@@ -1,0 +1,110 @@
+/// QUESTÃO 19: ///
+
+public class QUESTAO19 {
+	private static String nome;
+	private static String preço;
+	private static int quantidade;
+	
+	public String get Nome() {
+		return nome;
+	}
+	public void set Nome(String nome) {
+		this.nome = nome;
+	}
+	public String get Preço() {
+		return preço;
+	}
+	public void set Preço(String preço) {
+		this.preço = preço;
+	}
+	public int get Quantidade() {
+		return quantidade;
+	}
+	public void set Quantidade(int quantidade) {
+		this.quantidade = quantidade;
+	}
+	
+	public static void produtos( String nome, String preço ,int quantidade ) {
+		System.out.println("Nome do produto: " +nome+ " Preço do produto: " +preço+ " Quantidade de produto: " +quantidade);
+		nome = nome;
+		preço = preço;
+		quantidade = quantidade;
+	
+	
+        }
+        }
+
+
+    public class mercado {
+
+
+	public static void main(String[] args) {
+	
+		Scanner digite = new Scanner (System.in);
+		System.out.println("Olá!");
+		System.out.println("Deseja fazer algum pedido? Sim (1) Não (2)");
+        int x = digite.nextInt();
+		
+		if (x == 1) {
+		
+			System.out.println("Esses são os produtos disponíveis: ");
+			supermercadocalculos = new supermercado();
+
+			prodc1 = new produto();
+			prodc2 = new produto();
+			
+			
+	        c1.produtosdisponiveis("1-kit de alimentos" , "200,00 reais", 12);
+            c2.produtosdisponiveis("2-produtos de higiene pessoal", "50,00 reais", 13);
+            c3.produtosdisponiveis("3-produtos de limpeza", "66,00 reais", 14);
+            c4.produtosdisponiveis("4-bebidas", "10,00", 15)
+            System.out.println("Escolha seu produto de acordo com sua numeração");
+            int produt = digite.nextInt();
+            System.out.println("Fechando o pedido...");
+
+	        System.out.println("Qual será a forma de pagamento?: ");
+    	    System.out.println("Em cartão: ");
+	        System.out.println("Em cheque: ");
+	        System.out.println("Em Dinheiro: ");
+	        String fpagamento = digite.next();
+	
+		    else {
+    	    System.out.println("Deseja cancelar o pedido?");
+    		}
+
+		    System.out.println("Entendido. Obrigado por nos visitar, volte sempre!");
+		
+		
+	        }
+		
+		
+	        }
+
+            public class pedido {
+        	String ncliente;
+        	int quantitens;
+        	
+        	
+        	public String get ncliente() {
+        		return ncliente;
+        	}
+        	public void set ncliente(Stringnomedocliente) {
+        		this.ncliente = ncliente;
+        	}
+        	public int get quantitens() {
+        		return quantitens;
+        	}
+        	public void set quantitens(quantitens) {
+        		this.quantitens = quantitens;
+        	}
+        	
+        	}
+        	private static void pedido(String ncliente, quantitens) {
+        	ncliente = ncliente;
+        	quantiitens = quantiitens;
+        		
+        		System.out.println("O nome do cliente é: " +ncliente+ "A quantidade de itens é: " + quantitens);
+        	}
+        	
+        
+        }
